@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Lato&family=Pacifico&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    
+    color: white;
+    height: 58px;
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+   justify-content: start;
+   align-items: center;
+   list-style: none;
+}
+nav{
+    background-color: #2874f0;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+}
+.logo{
+    transform: translate(0px,4px);
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    padding: 0px 23px;
+}
+.container{
+    margin-top: 5px;
+}
+
+.search input{
+    width: 500px;
+height: 31px;
+border: 1px solid black;
+
+}
+.slider{
+    display: flex;
+justify-content: center;
+}
+
+.card{
+   
+    margin: 0 20px;
+    width: 188px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.slider img{
+    width: 80vw;
+    margin: 12px auto;
+}
+
+nav ul li a:hover{
+    font-weight: bold;
+   
+}
+.btn{
+    margin: 10px;
+}
+
+
+
+.cards{
+    display: flex;
+    padding: 0px 40px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 7vh;
+    font-family: 'Lato', sans-serif;
+    margin-top: 10px;
+}
